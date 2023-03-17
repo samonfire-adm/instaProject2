@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    background-color: #121212;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.parent h1{
+    color: #fff;
+    font-size: 150px;
+}
+h1:hover{
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff, 0 0 15px #B32428,
+    0 0 20px #B32428, 0 0 25px #B32428,
+    0 0 30px #B32428;
+
+}
